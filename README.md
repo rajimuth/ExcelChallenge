@@ -6,14 +6,14 @@
 * Louise wanted to start a crowd funding project to fund her play "FEVER", with an estimated budget of over $10,000. 
 * Initial analysis was done using the available Kickstarter data including campaign categories, Campaign Goal amount, Campign Pledged amount, Countries and Campaign outcomes including Theatre/Play to explore more on specific factors that made project campaigns successful. 
 * Initial analysis showed that the Theatre Category had more successful outcome followed by Music
-* Initital analysis also showed that within Theatre Category, Plays had more successful outcome and
-* After ther initial analysis, Louise moved ahead with the plan and started the crowd finding campaign for her play and that months after March*July are best to lauch a campaign
+* Initital analysis also showed that within Theatre Category, Plays had more successful outcome and that months after March in a year had successful outcomes in the past
+* After the initial analysis, Louise moved ahead with the plan and started the crowd finding campaign for her play FEVER
 * Louise's play Fever came close to its Fundraising goal in short time. 
-* In this post campaign analysis we want to further analyze and visualize how different campaigns faired in relation to campaign launch dates and funding goals.
+* In the current analysis, we want to further analyze and visualize how different campaigns faired in relation to campaign launch dates and funding goals.
 
 ### Analysis of Outcomes Based on Launch Date
-* Analysis of this data was done using Excel * pivot table and visualized using Line Chart
-* Before the pivot table was inserted, the launch date that was in unix stamp format in the data set had to be converted to regular date format.
+* Analysis of this data was done using Excel - pivot table and visualized using Line Chart
+* Before the pivot table was inserted, the launch date that was in unix stamp format in the data set was converted to regular date format.
 * Formula to convert Unix stamp to regular date was obtained using google search and then converted to short date format.
 * The formula used was (((cell position of unix stamp/60)/60)/24) + DATE(1970,1,1)
 * Year from the date was then added to an empty column using the year() formula
